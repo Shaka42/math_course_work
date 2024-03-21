@@ -2,6 +2,7 @@
 #include<stdlib.h>
 #include<math.h>
 
+// Newton Raphson Method function 
 double newton_raphson(double intial_approximate){
     double intial_x = intial_approximate,final_x,error,number_of_iterations=1;
     do
